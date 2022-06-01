@@ -4,21 +4,21 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'thesis/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "thesis"
-  gem.version       = Thesis::VERSION
-  gem.authors       = ["ClearSight Studio"]
-  gem.email         = ["contact@clearsightstudio.com"]
-  gem.description   = %q{Thesis: A Rails CMS that doesn't hijack your development workflow.}
-  gem.summary       = %q{Thesis: A Rails CMS that doesn't hijack your development workflow.}
-  gem.homepage      = "https://github.com/clearsightstudio/thesis"
+  s.name          = "thesis"
+  s.version       = Thesis::VERSION
+  s.authors       = ["ClearSight Studio"]
+  s.email         = ["contact@clearsightstudio.com"]
+  s.description   = %q{Thesis: A Rails CMS that doesn't hijack your development workflow.}
+  s.summary       = %q{Thesis: A Rails CMS that doesn't hijack your development workflow.}
+  s.homepage      = "https://github.com/clearsightstudio/thesis"
 
-  gem.required_ruby_version     = ">= 2.5.0"
+  s.required_ruby_version     = ">= 2.5.0"
 
-  gem.files         = Dir["{lib,app,config}/**/*"] + ["README.md", "LICENSE.txt"]
-  gem.require_paths = ["lib", "app"]
-  gem.test_files = Dir["spec/**/*"]
+  s.files         = Dir["{lib,app,config}/**/*"] + ["README.md", "LICENSE.txt"]
+  s.require_paths = ["lib", "app"]
+  s.test_files = Dir["spec/**/*"]
 
-  gem.add_dependency "railties", "~> 7.0", ">= 7.0.3"
-  gem.add_dependency "sass", ">= 3.3"
-  gem.add_dependency "sass-rails", ">= 5.0"
+  s.add_dependency "railties", "~> 7.0", ">= 7.0.3"
+  s.add_dependency "sass", ">= 3.3"
+  s.add_dependency "sass-rails", ">= 5.0"
 end
