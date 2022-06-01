@@ -3,7 +3,7 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'thesis/version'
 
-Gem::Specification.new do |gem|
+Gem::Specification.new do |s|
   s.name          = "thesis"
   s.version       = Thesis::VERSION
   s.authors       = ["ClearSight Studio"]
