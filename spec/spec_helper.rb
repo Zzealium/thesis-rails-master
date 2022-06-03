@@ -57,7 +57,7 @@ end
 RSpec.configure do |config|
   # Pretty FactoryGirl syntax. For more details, visit
   # https://github.com/thoughtbot/factory_girl/blob/master/GETTING_STARTED.md#using-factories
-  config.include FactoryGirl::Syntax::Methods
+  config.include FactoryBot::Syntax::Methods
 
 	DatabaseCleaner.strategy = :transaction
 
