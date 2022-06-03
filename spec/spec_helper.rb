@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'bundler/setup'
-require 'factory_girl'
+require 'factory_bot'
 require 'rspec/autorun'
 require 'database_cleaner'
 require 'rails/all'
