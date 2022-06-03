@@ -9,7 +9,7 @@ require 'rails/all'
 class ApplicationController < ActionController::Base
   #def page_is_editable?(page)
   #  true
-  end
+  # end
 end
 
 # Require thesis
