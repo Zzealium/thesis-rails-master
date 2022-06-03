@@ -21,7 +21,7 @@ initializer.run
 # Dir[File.join('.', '/lib/thesis/**/*.rb')].each {|file| require file }
 
 # Load Factories
-FactoryGirl.find_definitions
+FactoryBot.find_definitions
 
 # Configure ActiveRecord Connection
 # Use memory store since we don't care about persistent data here.
@@ -70,7 +70,7 @@ RSpec.configure do |config|
 	# Reload FactoryGirl definitions and clean
 	# the database after every test.
   config.after do
-    FactoryGirl.reload
+    FactoryBot.reload
 		DatabaseCleaner.clean
   end
 end

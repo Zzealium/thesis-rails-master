@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :page, class: Thesis::Page do
     name "Some Page"
     slug "/some-page"
