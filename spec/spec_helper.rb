@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'bundler/setup'
-require 'factory_bot'
+require 'factory_girl'
 require 'rspec/autorun'
 require 'database_cleaner'
 require 'rails/all'
@@ -21,7 +21,7 @@ initializer.run
 # Dir[File.join('.', '/lib/thesis/**/*.rb')].each {|file| require file }
 
 # Load Factories
-FactoryBot.find_definitions
+FactoryGirl.find_definitions
 
 # Configure ActiveRecord Connection
 # Use memory store since we don't care about persistent data here.
@@ -56,7 +56,7 @@ end
 
 RSpec.configure do |config|
   # Pretty FactoryBot syntax. For more details, visit
-  config.include FactoryBot::Syntax::Methods
+  config.include FactoryGirl::Syntax::Methods
 
 	DatabaseCleaner.strategy = :transaction
 
@@ -69,7 +69,7 @@ RSpec.configure do |config|
 	# Reload FactoryBot definitions and clean
 	# the database after every test.
   config.after do
-    FactoryBot.reload
+    FactoryGirl.reload
 		DatabaseCleaner.clean
   end
 end
