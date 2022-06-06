@@ -12,7 +12,7 @@ module Thesis
 
     validates :slug
       uniqueness: { message: "There's already a page at that location." },
-      presence: true,
+      presence: true
       # allow_blank: false,
       # allow_null: false
 
