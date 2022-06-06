@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib", "app"]
   s.test_files = Dir["spec/**/*"]
 
-  s.add_dependency "railties", ">= 6.0.0",
+  s.add_dependency "railties", ">= 6.0.0"
   s.add_dependency "sass", ">= 3.3"
   s.add_dependency 'sass-rails', '~> 6.0'
 end
