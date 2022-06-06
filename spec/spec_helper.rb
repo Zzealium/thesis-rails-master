@@ -55,8 +55,7 @@ ActiveRecord::Schema.define do
 end
 
 RSpec.configure do |config|
-  # Pretty FactoryGirl syntax. For more details, visit
-  # https://github.com/thoughtbot/factory_girl/blob/master/GETTING_STARTED.md#using-factories
+  # Pretty FactoryBot syntax. For more details, visit
   config.include FactoryBot::Syntax::Methods
 
 	DatabaseCleaner.strategy = :transaction
@@ -67,7 +66,7 @@ RSpec.configure do |config|
 		DatabaseCleaner.start
 	end
 
-	# Reload FactoryGirl definitions and clean
+	# Reload FactoryBot definitions and clean
 	# the database after every test.
   config.after do
     FactoryBot.reload
