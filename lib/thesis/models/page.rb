@@ -10,7 +10,7 @@ module Thesis
 
     after_save :update_subpage_slugs
 
-    validates uniqueness: { message: "There's already a page at that location." },
+    validates uniqueness: { message: "There's already a page at that location." }
       # presence: true,
       # allow_blank: false,
       # allow_null: false
