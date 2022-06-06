@@ -12,9 +12,9 @@ module Thesis
 
     validates :slug,
       # uniqueness: { message: "There's already a page at that location." },
-      presence: true,
-      allow_blank: false,
-      allow_null: false
+      # presence: true,
+      # allow_blank: false,
+      # allow_null: false
 
     def update_slug
       self.slug = "/" << self.name.to_s.parameterize
