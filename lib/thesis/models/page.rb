@@ -14,7 +14,7 @@ module Thesis
       uniqueness: { message: "There's already a page at that location." },
       presence: true,
       allow_blank: false,
-      allow_null: true #This needs to be fixed at some point.
+      exclusion: [nil] #This needs to be fixed at some point.
 
     def update_slug
       self.slug = "/" << self.name.to_s.parameterize
