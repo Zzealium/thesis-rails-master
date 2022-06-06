@@ -6,11 +6,11 @@ require 'database_cleaner'
 require 'rails/all'
 
 # Add a fake ApplicationController for testing.
-class ApplicationController < ActionController
-  def page_is_editable?(page)
-   true
-  end
-end
+# class ApplicationController < ActionController
+#   def page_is_editable?(page)
+#    true
+#   end
+# end
 
 # Require thesis
 require "thesis"
