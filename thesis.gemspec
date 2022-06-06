@@ -7,10 +7,8 @@ Gem::Specification.new do |s|
   s.name          = "thesis"
   s.version       = Thesis::VERSION
   s.authors       = ["ClearSight Studio"]
-  s.email         = ["contact@clearsightstudio.com"]
   s.description   = %q{Thesis: A Rails CMS that doesn't hijack your development workflow.}
   s.summary       = %q{Thesis: A Rails CMS that doesn't hijack your development workflow.}
-  s.homepage      = "https://github.com/clearsightstudio/thesis"
 
   s.required_ruby_version     = ">= 2.5.0"
 
@@ -18,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib", "app"]
   s.test_files = Dir["spec/**/*"]
 
-  s.add_dependency "railties", "~> 7.0", ">= 7.0.3"
+  s.add_dependency "railties", ">= 6.0.0",
   s.add_dependency "sass", ">= 3.3"
   s.add_dependency 'sass-rails', '~> 6.0'
 end
