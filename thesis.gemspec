@@ -18,5 +18,5 @@ Gem::Specification.new do |s|
 
   s.add_dependency "railties", ">= 6.0.0"
   s.add_dependency "sass", ">= 3.3"
-  s.add_dependency 'sass-rails', '~> 6.0'
+  s.add_dependency 'sass-rails', '>= 1.0'
 end
