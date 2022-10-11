@@ -1,4 +1,4 @@
-module Thesiss
+module Thesis
   module ControllerHelpers
     def current_page
       @current_page ||= begin
