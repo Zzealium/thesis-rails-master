@@ -1,5 +1,5 @@
 module Thesis
-  include ApplicationController
+  include application_controller
   class ThesisController < ::ApplicationController
     include Thesis::ControllerHelpers
 
