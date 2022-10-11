@@ -1,5 +1,4 @@
 module Thesis
-  require_dependency ActionController::Base
   class ThesisController < ::ApplicationController
     include Thesis::ControllerHelpers
 
