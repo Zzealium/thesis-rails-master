@@ -1,6 +1,6 @@
 # require_dependency ApplicationController
 module Thesis
-  class ThesisController < ::ApplicationController
+  class ThesisController# < ::ApplicationController
     include Thesis::ControllerHelpers
 
     def show
