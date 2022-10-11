@@ -7,6 +7,7 @@ require "thesis/routing/route_constraint"
 require "thesis/models/page"
 require "thesis/models/page_content"
 require "thesis/engine"
+require "thesis"
 
 module Thesis
 end
