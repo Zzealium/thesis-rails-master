@@ -1,3 +1,4 @@
+require_dependency "application_controller"
 module Thesis
   class ThesisController < ::ApplicationController
     include Thesis::ControllerHelpers
