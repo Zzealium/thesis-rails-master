@@ -5,7 +5,7 @@ require 'thesis/version'
 
 Gem::Specification.new do |s|
   s.name          = "thesis"
-  s.version       = "1.6.4"
+  s.version       = "1.6.5"
   s.authors       = ["ClearSight Studio"]
   s.description   = %q{Thesis: A Rails CMS that doesn't hijack your development workflow.}
   s.summary       = %q{Thesis: A Rails CMS that doesn't hijack your development workflow.}
