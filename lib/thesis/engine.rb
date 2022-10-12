@@ -7,7 +7,7 @@ module Thesis
 
       ActiveSupport.on_load(:action_controller) do
         include ::Thesis::ControllerHelpers
-        helper_method :current_page, :root_pages, :thesis_editor
+        helper_method :current_page, :root_pages, :page_is_editable?, :thesis_editor
       end
     end
   end
