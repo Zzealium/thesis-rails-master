@@ -1,6 +1,6 @@
 require "thesis/version"
 require "thesis/exceptions"
-require "thesis-rails-master/app/controllers/controller_helpers"
+require_relative "./app/controllers/controller_helpers"
 # require "thesis/controllers/application_controller"
 require "thesis/routing/routes"
 require "thesis/routing/route_constraint"
