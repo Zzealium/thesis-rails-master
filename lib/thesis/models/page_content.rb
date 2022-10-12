@@ -3,7 +3,7 @@ module Thesis
     self.table_name = "page_contents"
 
     belongs_to :page
-    validates :page_id, presence: true
+    validates_uniqueness_of :page_id, presence: true
 
     def render(args={})
       args[:editable] ? render_editable : render_content
