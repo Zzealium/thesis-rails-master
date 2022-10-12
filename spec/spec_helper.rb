@@ -4,7 +4,7 @@ require 'factory_girl'
 require 'rspec/autorun'
 require 'database_cleaner'
 require 'rails/all'
-
+config.autoload_paths += %W(#{config.root}/app)
 # Add a fake ApplicationController for testing.
 class ApplicationController < ActionController::Base
   def page_is_editable?(page)
