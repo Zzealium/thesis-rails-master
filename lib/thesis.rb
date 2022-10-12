@@ -1,6 +1,6 @@
 require "thesis/version"
 require "thesis/exceptions"
-require "thesis/controllers/controller_helpers"
+require "app/controllers/controller_helpers"
 # require "thesis/controllers/application_controller"
 require "thesis/routing/routes"
 require "thesis/routing/route_constraint"

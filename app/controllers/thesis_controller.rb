@@ -1,5 +1,5 @@
 module Thesis
-  class ThesisController < ActionController::Base
+  class ThesisController < ::ApplicationController 
     include Thesis::ControllerHelpers
 
     def show
