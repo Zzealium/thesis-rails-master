@@ -62,7 +62,7 @@ module Thesis
       end
 
       def install_page_is_editable
-        filename = "app/controllers/application_controller.rb"
+        filename = "thesis/controllers/application_controller.rb"
         existing = File.binread("#{filename}").include?("def page_is_editable?")
 
         if existing && generating?
