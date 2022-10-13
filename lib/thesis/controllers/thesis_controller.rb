@@ -1,5 +1,5 @@
 module Thesis
-  require "app/controllers/application_controller"
+  require_relative "app/controllers/application_controller"
   class ThesisController < ::ApplicationController
     include Thesis::ControllerHelpers
 
