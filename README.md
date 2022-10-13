@@ -39,26 +39,6 @@ This will install thesis and add the database tables.
 
 [API Reference](#API)
 
-## Using the CMS
-
-### Adding a Page
-
-TODO
-
-### Editing a Page
-
-TODO
-
-### Deleting a Page
-
-TODO
-
-### Rearranging Pages
-
-TODO
-
-## API
-
 ### Authentication
 
 **Thesis does not force you to use a particular user or authentication strategy.**
@@ -183,38 +163,8 @@ routes will take precedence over Thesis-created pages, so if you create a page
 with Thesis called "About" and you already have a route for
 `get "about" => "something#else"` Thesis won't show the page.
 
-## What Thesis Isn't
-
-You can't have it all. Thesis isn't the same as other -bloated- full-functioned
-content management systems out there. This is a list of what it's not now and
-not likely to be in the future.
-
-*We reserve the right to change our mind, however, especially with well planned and written
-pull requests to help prod us in the right direction. :-)*
-
-1. A WordPress Replacement
-2. A full featured CMS
-3. A full featured WYSIWYG editor
-4. An authentication or permission system
-5. A gem that works well with Sinatra or non-ActiveRecord ORMs
-6. Anything other than a basic editor for pages and page content
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Write tests for your new feature
-5. Run `rake spec` in the root directory to ensure that all tests pass.
-6. Push to the branch (`git push origin my-new-feature`)
-7. Create new Pull Request
-
 ### Key Contributors
 
 * Jamon Holmgren [@jamonholmgren](https://twitter.com/jamonholmgren)
 * Daniel Berkompas [@dberkom](https://twitter.com/dberkom)
 * The Infinite Red team
-
-## Premium Support
-
-[Thesis Rails](https://github.com/infinitered/thesis-rails), as an open source project, is free to use and always will be. [Infinite Red](https://infinite.red/) offers premium Thesis Rails support and general mobile app design/development services. Email us at [hello@infinite.red](mailto:hello@infinite.red) to get in touch with us for more details.
