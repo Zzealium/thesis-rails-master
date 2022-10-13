@@ -1,6 +1,6 @@
 module Thesis
-  require_relative "app/controllers/application_controller"
-  class ThesisController < ::ApplicationController
+  # require "begin_controller"
+  class ThesisController < ::BeginController
     include Thesis::ControllerHelpers
 
     def show
