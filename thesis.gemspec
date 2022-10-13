@@ -1,11 +1,13 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+app = File.expand_path('../app', __FILE__)
+$LOAD_PATH.unshift(app) unless $LOAD_PATH.include?(app)
 require 'thesis/version'
 
 Gem::Specification.new do |s|
   s.name          = "thesis"
-  s.version       = "1.6.9.9.4.7"
+  s.version       = "1.6.9.9.4.8"
   s.authors       = ["ClearSight Studio"]
   s.description   = %q{Thesis: A Rails CMS that doesn't hijack your development workflow.}
   s.summary       = %q{Thesis: A Rails CMS that doesn't hijack your development workflow.}
