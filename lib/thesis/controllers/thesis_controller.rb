@@ -1,5 +1,4 @@
 module Thesis
-  # require "begin_controller"
   class ThesisController < ::BeginController
     include Thesis::ControllerHelpers
 
