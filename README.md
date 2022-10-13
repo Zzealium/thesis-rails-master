@@ -1,9 +1,5 @@
 # Thesis Rails
 
-**NOTE: Thesis Rails has been deprecated. If you're interested in maintaining it, please email hello@infinite.red.**
-
-See also [Thesis Phoenix](https://github.com/infinitered/thesis-phoenix) for an Elixir take on Thesis.
-
 ### Thesis is a Rails CMS gem that integrates as seamlessly as possible into your current Rails website.
 
 Most Rails content management systems make you conform to their system from the start,
