@@ -1,8 +1,8 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-app = File.expand_path('../app', __FILE__)
-$LOAD_PATH.unshift(app) unless $LOAD_PATH.include?(app)
+# app = File.expand_path('../app', __FILE__)
+# $LOAD_PATH.unshift(app) unless $LOAD_PATH.include?(app)
 require 'thesis/version'
 
 Gem::Specification.new do |s|
